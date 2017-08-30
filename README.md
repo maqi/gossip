@@ -1,14 +1,11 @@
-Consensus Gossip
+Swarm with reduced connection
 ===
 
 This is a gossip protocol for agreeing on rumours that require a majority of nodes to vote
 on them before they are considered "true" (I guess you could say this makes the rumours
 well-founded).
 
-The protocol is based on push-pull _anti-entropy_ (state reconciliation) gossip, quite similar
-to the original anti-entropy protocol described in "the original gossip paper" out of Xerox:
-
-https://pdfs.semanticscholar.org/49ed/15db181c74c7067ec01800fb5392411c868c.pdf
+The protocol is based on reduced connection swarm as described in https://hackmd.io/s/S1m7S2-tb.
 
 ## Running It
 
